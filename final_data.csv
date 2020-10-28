@@ -1,0 +1,210 @@
+trial, train examples, distance metric, transformation, k, accuracy
+1, 1000, euclidian, None, 1, 0.5
+1, 1000, euclidian, None, 3, 0.02
+1, 1000, euclidian, None, 5, 0.05
+1, 1000, euclidian, None, 7, 0.04
+1, 1000, euclidian, None, 9, 0.02
+2, 1000, euclidian, None, 1, 0.62
+2, 1000, euclidian, None, 3, 0.05
+2, 1000, euclidian, None, 5, 0.07
+2, 1000, euclidian, None, 7, 0.05
+2, 1000, euclidian, None, 9, 0.04
+3, 1000, euclidian, None, 1, 0.58
+3, 1000, euclidian, None, 3, 0.03
+3, 1000, euclidian, None, 5, 0.03
+3, 1000, euclidian, None, 7, 0.03
+3, 1000, euclidian, None, 9, 0.03
+
+1, 100, euclidian, None, 1, 0.32
+1, 500, euclidian, None, 1, 0.5
+1, 1000, euclidian, None, 1, 0.5
+1, 5000, euclidian, None, 1, 0.66
+1, 10000, euclidian, None, 1, 0.73
+2, 100, euclidian, None, 1, 0.42
+2, 500, euclidian, None, 1, 0.59
+2, 1000, euclidian, None, 1, 0.62
+2, 5000, euclidian, None, 1, 0.75
+2, 10000, euclidian, None, 1, 0.78
+3, 100, euclidian, None, 1, 0.36
+3, 500, euclidian, None, 1, 0.49
+3, 1000, euclidian, None, 1, 0.58
+3, 5000, euclidian, None, 1, 0.73
+3, 10000, euclidian, None, 1, 0.78
+
+1, 1000, euclidian, None, 1, 0.5
+1, 1000, l1, None, 1, 0.48
+1, 1000, Minkowski3, None, 1, 0.51
+1, 1000, Minkowski4, None, 1, 0.5
+1, 1000, Minkowski5, None, 1, 0.5
+2, 1000, euclidian, None, 1, 0.62
+2, 1000, l1, None, 1, 0.6
+2, 1000, Minkowski3, None, 1, 0.65
+2, 1000, Minkowski4, None, 1, 0.67
+2, 1000, Minkowski5, None, 1, 0.66
+3, 1000, euclidian, None, 1, 0.58
+3, 1000, l1, None, 1, 0.54
+3, 1000, Minkowski3, None, 1, 0.59
+3, 1000, Minkowski4, None, 1, 0.59
+3, 1000, Minkowski5, None, 1, 0.59
+
+1, 2000, Euclidian distance, None, 1, 0.53
+1, 2000, Euclidian distance, Downscale 12x12, 1, 0.61
+1, 2000, Euclidian distance, Downscale 8x8, 1, 0.61
+1, 2000, Euclidian distance, Downscale 5x5, 1, 0.51
+1, 2000, Euclidian distance, Downscale 4x4, 1, 0.48
+1, 2000, Euclidian distance, Downscale 2x2, 1, 0.15
+2, 2000, Euclidian distance, None, 1, 0.71
+2, 2000, Euclidian distance, Downscale 12x12, 1, 0.72
+2, 2000, Euclidian distance, Downscale 8x8, 1, 0.69
+2, 2000, Euclidian distance, Downscale 5x5, 1, 0.64
+2, 2000, Euclidian distance, Downscale 4x4, 1, 0.54
+2, 2000, Euclidian distance, Downscale 2x2, 1, 0.24
+3, 2000, Euclidian distance, None, 1, 0.63
+3, 2000, Euclidian distance, Downscale 12x12, 1, 0.67
+3, 2000, Euclidian distance, Downscale 8x8, 1, 0.67
+3, 2000, Euclidian distance, Downscale 5x5, 1, 0.6
+3, 2000, Euclidian distance, Downscale 4x4, 1, 0.59
+3, 2000, Euclidian distance, Downscale 2x2, 1, 0.29
+
+1, 1000, Euclidian distance outside weighted, offset=0, Downscale 12x12, 1, 0.02
+1, 1000, Euclidian distance outside weighted, offset=0.2, Downscale 12x12, 1, 0.05
+1, 1000, Euclidian distance outside weighted, offset=0.4, Downscale 12x12, 1, 0.09
+1, 1000, Euclidian distance outside weighted, offset=0.6, Downscale 12x12, 1, 0.16
+1, 1000, Euclidian distance outside weighted, offset=0.8, Downscale 12x12, 1, 0.34
+1, 1000, Euclidian distance outside weighted, offset=1, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=1.2, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=1.4, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=1.6, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=1.8, Downscale 12x12, 1, 0.52
+1, 1000, Euclidian distance outside weighted, offset=2.0, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=2.2, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=2.4, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance outside weighted, offset=2.6, Downscale 12x12, 1, 0.58
+1, 1000, Euclidian distance outside weighted, offset=2.8, Downscale 12x12, 1, 0.56
+1, 1000, Euclidian distance outside weighted, offset=3, Downscale 12x12, 1, 0.57
+2, 1000, Euclidian distance outside weighted, offset=0, Downscale 12x12, 1, 0.05
+2, 1000, Euclidian distance outside weighted, offset=0.2, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance outside weighted, offset=0.4, Downscale 12x12, 1, 0.13
+2, 1000, Euclidian distance outside weighted, offset=0.6, Downscale 12x12, 1, 0.29
+2, 1000, Euclidian distance outside weighted, offset=0.8, Downscale 12x12, 1, 0.5
+2, 1000, Euclidian distance outside weighted, offset=1, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance outside weighted, offset=1.2, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance outside weighted, offset=1.4, Downscale 12x12, 1, 0.65
+2, 1000, Euclidian distance outside weighted, offset=1.6, Downscale 12x12, 1, 0.63
+2, 1000, Euclidian distance outside weighted, offset=1.8, Downscale 12x12, 1, 0.62
+2, 1000, Euclidian distance outside weighted, offset=2.0, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance outside weighted, offset=2.2, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance outside weighted, offset=2.4, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance outside weighted, offset=2.6, Downscale 12x12, 1, 0.63
+2, 1000, Euclidian distance outside weighted, offset=2.8, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance outside weighted, offset=3, Downscale 12x12, 1, 0.64
+3, 1000, Euclidian distance outside weighted, offset=0, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance outside weighted, offset=0.2, Downscale 12x12, 1, 0.08
+3, 1000, Euclidian distance outside weighted, offset=0.4, Downscale 12x12, 1, 0.06
+3, 1000, Euclidian distance outside weighted, offset=0.6, Downscale 12x12, 1, 0.2
+3, 1000, Euclidian distance outside weighted, offset=0.8, Downscale 12x12, 1, 0.48
+3, 1000, Euclidian distance outside weighted, offset=1, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance outside weighted, offset=1.2, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance outside weighted, offset=1.4, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance outside weighted, offset=1.6, Downscale 12x12, 1, 0.54
+3, 1000, Euclidian distance outside weighted, offset=1.8, Downscale 12x12, 1, 0.55
+3, 1000, Euclidian distance outside weighted, offset=2.0, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance outside weighted, offset=2.2, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance outside weighted, offset=2.4, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance outside weighted, offset=2.6, Downscale 12x12, 1, 0.54
+3, 1000, Euclidian distance outside weighted, offset=2.8, Downscale 12x12, 1, 0.55
+3, 1000, Euclidian distance outside weighted, offset=3, Downscale 12x12, 1, 0.57
+
+1, 1000, Euclidian distance inside weighted, offset=0, Downscale 12x12, 1, 0.02
+1, 1000, Euclidian distance inside weighted, offset=0.2, Downscale 12x12, 1, 0.04
+1, 1000, Euclidian distance inside weighted, offset=0.4, Downscale 12x12, 1, 0.04
+1, 1000, Euclidian distance inside weighted, offset=0.6, Downscale 12x12, 1, 0.04
+1, 1000, Euclidian distance inside weighted, offset=0.8, Downscale 12x12, 1, 0.04
+1, 1000, Euclidian distance inside weighted, offset=1, Downscale 12x12, 1, 0.04
+1, 1000, Euclidian distance inside weighted, offset=1.2, Downscale 12x12, 1, 0.43
+1, 1000, Euclidian distance inside weighted, offset=1.4, Downscale 12x12, 1, 0.59
+1, 1000, Euclidian distance inside weighted, offset=1.6, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance inside weighted, offset=1.8, Downscale 12x12, 1, 0.58
+1, 1000, Euclidian distance inside weighted, offset=2.0, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance inside weighted, offset=2.2, Downscale 12x12, 1, 0.55
+1, 1000, Euclidian distance inside weighted, offset=2.4, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance inside weighted, offset=2.6, Downscale 12x12, 1, 0.56
+1, 1000, Euclidian distance inside weighted, offset=2.8, Downscale 12x12, 1, 0.57
+1, 1000, Euclidian distance inside weighted, offset=3, Downscale 12x12, 1, 0.57
+2, 1000, Euclidian distance inside weighted, offset=0, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance inside weighted, offset=0.2, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance inside weighted, offset=0.4, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance inside weighted, offset=0.6, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance inside weighted, offset=0.8, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance inside weighted, offset=1, Downscale 12x12, 1, 0.06
+2, 1000, Euclidian distance inside weighted, offset=1.2, Downscale 12x12, 1, 0.41
+2, 1000, Euclidian distance inside weighted, offset=1.4, Downscale 12x12, 1, 0.63
+2, 1000, Euclidian distance inside weighted, offset=1.6, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance inside weighted, offset=1.8, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance inside weighted, offset=2.0, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance inside weighted, offset=2.2, Downscale 12x12, 1, 0.61
+2, 1000, Euclidian distance inside weighted, offset=2.4, Downscale 12x12, 1, 0.62
+2, 1000, Euclidian distance inside weighted, offset=2.6, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance inside weighted, offset=2.8, Downscale 12x12, 1, 0.64
+2, 1000, Euclidian distance inside weighted, offset=3, Downscale 12x12, 1, 0.64
+3, 1000, Euclidian distance inside weighted, offset=0, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance inside weighted, offset=0.2, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance inside weighted, offset=0.4, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance inside weighted, offset=0.6, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance inside weighted, offset=0.8, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance inside weighted, offset=1, Downscale 12x12, 1, 0.05
+3, 1000, Euclidian distance inside weighted, offset=1.2, Downscale 12x12, 1, 0.45
+3, 1000, Euclidian distance inside weighted, offset=1.4, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance inside weighted, offset=1.6, Downscale 12x12, 1, 0.58
+3, 1000, Euclidian distance inside weighted, offset=1.8, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance inside weighted, offset=2.0, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance inside weighted, offset=2.2, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance inside weighted, offset=2.4, Downscale 12x12, 1, 0.6
+3, 1000, Euclidian distance inside weighted, offset=2.6, Downscale 12x12, 1, 0.58
+3, 1000, Euclidian distance inside weighted, offset=2.8, Downscale 12x12, 1, 0.57
+3, 1000, Euclidian distance inside weighted, offset=3, Downscale 12x12, 1, 0.57
+
+1, 10000, Minkowski3, None, 1, 0.71
+1, 10000, Minkowski4, None, 1, 0.71
+1, 10000, Minkowski5, None, 1, 0.73
+2, 10000, Minkowski3, None, 1, 0.79
+2, 10000, Minkowski4, None, 1, 0.78
+2, 10000, Minkowski5, None, 1, 0.79
+3, 10000, Minkowski3, None, 1, 0.78
+3, 10000, Minkowski4, None, 1, 0.78
+3, 10000, Minkowski5, None, 1, 0.77
+1, 10000, Minkowski3, Downscale 12x12, 1, 0.71
+1, 10000, Minkowski4, Downscale 12x12, 1, 0.73
+1, 10000, Minkowski5, Downscale 12x12, 1, 0.71
+2, 10000, Minkowski3, Downscale 12x12, 1, 0.8
+2, 10000, Minkowski4, Downscale 12x12, 1, 0.8
+2, 10000, Minkowski5, Downscale 12x12, 1, 0.78
+3, 10000, Minkowski3, Downscale 12x12, 1, 0.81
+3, 10000, Minkowski4, Downscale 12x12, 1, 0.82
+3, 10000, Minkowski5, Downscale 12x12, 1, 0.82
+1, 10000, Minkowski3, Downscale 8x8, 1, 0.69
+1, 10000, Minkowski4, Downscale 8x8, 1, 0.72
+1, 10000, Minkowski5, Downscale 8x8, 1, 0.72
+2, 10000, Minkowski3, Downscale 8x8, 1, 0.79
+2, 10000, Minkowski4, Downscale 8x8, 1, 0.8
+2, 10000, Minkowski5, Downscale 8x8, 1, 0.81
+3, 10000, Minkowski3, Downscale 8x8, 1, 0.81
+3, 10000, Minkowski4, Downscale 8x8, 1, 0.82
+3, 10000, Minkowski5, Downscale 8x8, 1, 0.81
+
+
+1, 2000, Euclidian distance, Downscale 12x12, 1, 0.61
+1, 2000, Euclidian distance, Downscale 12x12 MAX, 1, 0.58
+1, 2000, Euclidian distance, Downscale 12x12 MIN, 1, 0.36
+1, 2000, Euclidian distance, Downscale 12x12 and trim whitespace, 1, 0.63
+1, 2000, Euclidian distance, Image Gradient 8X8, 1, 0.37
+2, 2000, Euclidian distance, Downscale 12x12, 1, 0.72
+2, 2000, Euclidian distance, Downscale 12x12 MAX, 1, 0.75
+2, 2000, Euclidian distance, Downscale 12x12 MIN, 1, 0.53
+2, 2000, Euclidian distance, Downscale 12x12 and trim whitespace, 1, 0.75
+2, 2000, Euclidian distance, Image Gradient 8X8, 1, 0.5
+3, 2000, Euclidian distance, Downscale 12x12, 1, 0.67
+3, 2000, Euclidian distance, Downscale 12x12 MAX, 1, 0.69
+3, 2000, Euclidian distance, Downscale 12x12 MIN, 1, 0.51
+3, 2000, Euclidian distance, Downscale 12x12 and trim whitespace, 1, 0.65
+3, 2000, Euclidian distance, Image Gradient 8X8, 1, 0.41
